@@ -48,9 +48,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3x2 leading-[30px] flex flex-row gap-2'
+        className='parabout mt-4 text-secondary text-[17px] max-w-3x2 leading-[30px] flex flex-row gap-2'
       >
-        <div className="basis-1/2">
+        <div className="profile basis-1/2">
           <img src={an} alt="logo" width={'72%'} height={'72%'} />
         </div>
         <div className="basis-1/2">
